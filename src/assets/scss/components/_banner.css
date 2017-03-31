@@ -1,0 +1,251 @@
+/* title */
+
+h1{
+
+margin-top: 45px;
+
+}
+
+/* menu */
+
+.link {
+
+width: auto;
+height: 45px;
+text-align: center;
+background: #757575;
+
+}
+
+.link div {
+
+font-size: 20px;
+text-decoration: none;
+display: inline-block;
+
+}
+
+.link div a {
+
+color: white;
+line-height: 40px;
+font-size: 25px;
+
+}
+
+/* "about me" content */
+
+.callout{
+
+background: #eeeeee;
+border: 2px solid #a44a4a;
+border-radius: 4px;
+text-align: center;
+
+}
+
+.primary.callout{
+
+background: #eeeeee;
+
+}
+
+.callout a{
+
+color: #8a8a8a;
+
+}
+
+/* my inforamtions */
+
+.me{
+
+width: 350px;
+height : auto;
+display: inline-block;
+position: absolute;
+text-align: center;
+margin-left: 300px;
+
+}
+
+.me p {
+
+font-size: 22px;
+color : #a44a4a;
+
+}
+
+.id{
+
+margin-left : 850px;
+
+}
+
+/* Hobby Foot */
+
+.foot{
+
+width: 300px;
+height: auto;
+display: inline-block;
+position: absolute;
+
+}
+
+.foot img{
+
+border-radius: 100px;
+margin-left: 50px;
+margin-right: 50px;
+
+}
+
+.foot h4{
+
+text-align: center;
+color: #a44a4a;
+font: bold;
+
+}
+
+.foot .primary.callout {
+
+margin-top: 15px;
+
+}
+
+/* Hobby Manga */
+
+.mangas{
+
+width: 300px;
+height: auto;
+display: inline-block;
+position: absolute;
+margin-left: 430px;
+
+}
+
+.mangas img{
+
+border-radius: 100px;
+margin-left: 50px;
+margin-right: 50px;
+height : 200px;
+
+}
+
+.mangas h4{
+
+text-align: center;
+color: #a44a4a;
+font: bold;
+
+}
+
+.mangas .primary.callout {
+
+margin-top: 15px;
+
+}
+
+/* Hobby VideoGames */
+
+.jv{
+
+width: 300px;
+height: auto;
+display: inline-block;
+position: absolute;
+margin-left: 867px;
+
+}
+
+.jv img{
+
+border-radius: 100px;
+margin-left: 50px;
+margin-right: 50px;
+height : 200px;
+
+}
+
+.jv h4{
+
+text-align: center;
+color: #a44a4a;
+font: bold;
+
+}
+
+.jv .primary.callout {
+
+margin-top: 15px;
+
+}
+
+/* hoobies style */
+
+.large-8.medium-8.columns {
+
+margin-top: 100px;
+
+}
+
+.large-4.medium-4.columns {
+
+padding-top: 25px;
+
+}
+
+.row .primary.callout {
+
+height : 150px;
+
+}
+
+/* Form */
+
+#success_message{ display: none;}
+
+
+.container {
+
+width : 800px;
+height : 700px;
+margin: 0 auto;
+background: #eeeeee;
+border: 2px solid #a44a4a;
+border-radius: 4px;
+margin-top: 45px;
+
+}
+
+.container h1 {
+
+text-align: center;
+
+}
+
+label {
+
+margin-left: 200px;
+
+}
+
+.container .form-control {
+
+background: #cacaca;
+color: white;
+width: 500px;
+margin: 0 auto;
+
+}
+
+.btn.btn-warning {
+
+margin: 0 auto;
+
+
+}

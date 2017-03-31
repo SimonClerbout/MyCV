@@ -6,19 +6,116 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyCV - Simon Clerbout</title>
+    <link rel="icon" href="../assets/img/icone.png">
     <link rel="stylesheet" href="assets/css/app.css">
-    <link rel="stylesheet" href="../scss/banner.css">
   </head>
   <body>
     <header>
-    <h1>My CV</h1>
-  <div class="row">
-    <a href="contact.html">Contact me</a>
-    <a href="skills.html">My Skills</a>
-    <a href="hobbies.html">My hobbies</a>
+  <div class="link">
+    <div>
+      <a href="index.html">| Home |</a>
+    </div>
+    <div>
+      <a href="contact.html">Contact me |</a>
+    </div>
+    <div>
+      <a href="skills.html">My Skills |</a>
+    </div>
   </div>
     </header>
-    <h1>contact</h1>
+    <div class="container">
+    
+       <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+    <fieldset>
+    
+    <!-- Form Name -->
+    <h1>Contact me Today!</h1>
+    
+    <!-- Text input-->
+    
+    <div class="form-group">
+      <label class="col-md-4 control-label">First Name</label>
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+        </div>
+      </div>
+    </div>
+    
+    <!-- Text input-->
+    
+    <div class="form-group">
+      <label class="col-md-4 control-label" >Last Name</label>
+        <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+        </div>
+      </div>
+    </div>
+    
+    <!-- Text input-->
+           <div class="form-group">
+      <label class="col-md-4 control-label">E-Mail</label>
+        <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+      <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+        </div>
+      </div>
+    </div>
+    
+    <!-- Text input-->
+    
+    <div class="form-group">
+      <label class="col-md-4 control-label">Company</label>
+        <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+      <input name="city" placeholder="Company" class="form-control"  type="text">
+        </div>
+      </div>
+    </div>
+    
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label">Website or domain name (optionnal)</label>
+       <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
+      <input name="website" placeholder="Website or domain name" class="form-control" type="text">
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- Text area -->
+    
+    <div class="form-group">
+      <label class="col-md-4 control-label">Why do you contat me?</label>
+        <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+            	<textarea class="form-control" name="comment" placeholder="Write the reason fot your sollicitation"></textarea>
+      </div>
+      </div>
+    </div>
+    
+    <!-- Success message -->
+    <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting me, I will get back to you shortly.</div>
+    
+    <!-- Button -->
+    <div class="form-group">
+      <label class="col-md-4 control-label"></label>
+      <div class="col-md-4">
+        <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+      </div>
+    </div>
+    
+    </fieldset>
+    </form>
+    </div>
     
 
     <script src="assets/js/app.js"></script>
