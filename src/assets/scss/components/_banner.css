@@ -14,6 +14,7 @@ width: auto;
 height: 45px;
 text-align: center;
 background: #eeeeee;
+border-bottom: 2px solid #b74242;
 
 }
 
@@ -27,7 +28,7 @@ display: inline-block;
 
 .link div a {
 
-color: #b74242;
+color: #b74242  ;
 line-height: 40px;
 font-size: 25px;
 
@@ -96,8 +97,8 @@ position: absolute;
 .foot img{
 
 border-radius: 100px;
-margin-left: 50px;
-margin-right: 50px;
+display: block;
+margin: 0 auto;
 
 }
 
@@ -130,8 +131,9 @@ margin-left: 430px;
 .mangas img{
 
 border-radius: 100px;
-margin-left: 50px;
-margin-right: 50px;
+display : block;
+margin: 0 auto;
+width : 200px;
 height : 200px;
 
 }
@@ -165,8 +167,9 @@ margin-left: 867px;
 .jv img{
 
 border-radius: 100px;
-margin-left: 50px;
-margin-right: 50px;
+display : block;
+margin: 0 auto;
+width : 200px;
 height : 200px;
 
 }
