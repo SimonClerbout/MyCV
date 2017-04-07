@@ -1,7 +1,7 @@
 $(document).foundation();
 
 $(document).ready(function() {
-   $('#contact_form').bootstrapValidator({
+   $('#contact_form').validate({
        fields: {
            first_name: {
                validators: {
@@ -50,7 +50,7 @@ $(document).ready(function() {
        })
        .on('success.form.bv', function(e) {
            $('#success_message').slideDown({ opacity: "show" }, "slow") // Do something ...
-               $('#contact_form').data('bootstrapValidator').resetForm();
+               $('#contact_form').data('validate').resetForm();
 
            // Prevent form submission
            e.preventDefault();
@@ -59,6 +59,6 @@ $(document).ready(function() {
            var $form = $(e.target);
 
            // Get the BootstrapValidator instance
-           var bv = $form.data('bootstrapValidator');
+           var bv = $form.data('validate');
        });
 });
